@@ -1,3 +1,13 @@
+/***
+ * udpecho.d -- libevent-based UDP echo server example
+ *
+ * Authors: R. Lonstein, rlonstein+github@pobox.com
+ * License: MIT
+ *
+ * See_Also: http://libevent.org/
+ *
+ */
+
 import std.conv : to;
 import std.socket : InternetAddress, UdpSocket, SocketException;
 import deimos.event2.event;
