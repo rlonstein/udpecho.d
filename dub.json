@@ -1,9 +1,9 @@
 {
     "name": "udpecho.d",
-    "description": "Pool-based UDP echo server",
+    "description": "libevent-based UDP echo server",
     "copyright": "Copyright © 2015, Ross Lonstein",
     "license": "MIT",
-    "authors": ["Ross Lonstein <rlonstein@gmail.com>"],
+    "authors": ["Ross Lonstein <rlonstein+github@pobox.com>"],
     "dependencies": {
         "logger": "~>2.66.0",
         "libevent": "~>2.0.1+2.0.16"
